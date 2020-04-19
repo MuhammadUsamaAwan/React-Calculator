@@ -1,0 +1,50 @@
+table {
+    border-spacing: 20px;
+    width: 60%;
+    max-width: 100%;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+td {
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.operator {
+    background-color: #DFE1E5;
+}
+
+.operator:hover {
+    background-color: #D7D9DD;
+    transition-timing-function: ease-in;
+    transition-duration: 0.3s;
+}
+
+.number {
+    background-color: #F1F3F4;
+}
+
+.number:hover {
+    background-color: #E8EAEB;
+    transition-timing-function: ease-in;
+    transition-duration: 0.3s;
+}
+
+.equal {
+    background-color: #4285F4;
+}
+
+.equal:hover {
+    background-color: #4D8BF1;
+    transition-timing-function: ease-in;
+    transition-duration: 0.3s;
+}
+
+.key {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

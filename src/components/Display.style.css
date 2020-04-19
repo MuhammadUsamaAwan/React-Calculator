@@ -1,0 +1,17 @@
+.display-area {
+    text-align: center;
+}
+
+.screen {
+    width: 55%;
+    padding: 12px 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E5E7EA;
+    border-radius: 5px;
+    background-color: white;
+    text-align: right;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
